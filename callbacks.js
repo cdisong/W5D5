@@ -1,9 +1,14 @@
+// ===========================
+// Clock
+// ===========================
+
 class Clock{
   constructor(){
     const date = new Date();
     this.hours = date.getHours();
     this.minutes = date.getMinutes();
     this.seconds = date.getSeconds();
+    // Add set interval
   }
 
   printTime(){
@@ -17,7 +22,11 @@ class Clock{
 }
 
 const watch = new Clock();
-watch._tick();
+// watch._tick();
+
+// ===========================
+// addNumbers
+// ===========================
 
 function sumNumbers(...nums) {
   let sum = 0;
